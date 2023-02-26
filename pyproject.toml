@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "data-pipeline-sqs-s3-athena"
+version = "0.1.0"
+description = ""
+authors = ["Maycon Carlete <maycon.carlete@gmail.com>"]
+readme = "README.md"
+packages = [{include = "data_pipeline_sqs_s3_athena"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+boto3 = "^1.26.79"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
